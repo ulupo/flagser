@@ -24,3 +24,5 @@ remove_edges = cases:
 vertex_degree overrideVertices overrideEdges = cases:
   dim 0:  -1 * (vertexOutDegrees[cellVertices[0]] + vertexInDegrees[cellVertices[0]])
   else:   max(faceWeights)
+
+lower_star_flag overrideEdges = max(faceWeights)
